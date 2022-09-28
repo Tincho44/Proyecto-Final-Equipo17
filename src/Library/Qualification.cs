@@ -2,17 +2,17 @@ using System;
 using System.Collections.Generic;
 namespace Project
 {///
-    public class Qualification
+    public class Qualification//Clase usada para clasificar a los empleados y empleadores
     {
-        List<int> Qualify;
+        List<int> Qualify;//Se declara el atributo
     /// <summary>
     /// 
     /// </summary>
-        public void QualifyEmployer()
+        public void QualifyEmployer()//Califica al empleador
         {
 
         }///
-        public void QualifyEmployee()
+        public void QualifyEmployee()//Califica al empleado
         {
         
         }

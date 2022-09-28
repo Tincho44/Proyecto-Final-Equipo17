@@ -2,19 +2,19 @@ using System;
 using System.Collections.Generic;
 namespace Project
 {///
-    public class Reputation
+    public class Reputation//Conjunto de calificaciones a través del tiempo
     {
-        float[] reputation;
+        float[] reputation;//atributo donde se guarda la reputación
     ///
-    public void GetQualifications(Qualification qualification)
+    public void GetQualifications(Qualification qualification)//obtiene una calificación
     {
 
     }///
-    public void AverageQualifications()
+    public void AverageQualifications()//promedia calificaciones
     {
 
     }///
-    public void CreateReputation()
+    public void CreateReputation()//imprime la reputación
     {
 
     }
