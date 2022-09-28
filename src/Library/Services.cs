@@ -22,9 +22,9 @@ namespace Project{
 
         public void ModifyService(Services service,int newCost, string newName){
 
-            for (int i = 0 ; i < this.services.Count() ; i++){
+            for (int i = 0 ; i < this.services.Count  ; i++){
 
-                if ( this.services[i] == services){
+                if ( this.services[i] == service){
 
                 }
             }
