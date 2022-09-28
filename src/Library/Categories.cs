@@ -28,11 +28,11 @@ namespace Project {
 
         public void DeleteCategorie(Categories catDel){
 
-            for (int i = 0 ; i < this.categoriesList.GetRange() ; i++){
+            for (int i = 0 ; i < (this.categoriesList<Categories>.Count()) ; i++){
 
                 if ( this.categoriesList[i] == catDel){
 
-                    this.categoriesList[i].RemoveAt();
+                    this.categoriesList.RemoveAt(i);
                 }
             }
         } 
