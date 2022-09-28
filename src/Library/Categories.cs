@@ -21,9 +21,9 @@ namespace Project {
             this.categoriesList.Add(cat);                       
         }
 
-        public void ModifyCategorie(Categories catMod, ){
+        public void ModifyCategorie(Categories catMod){
 
-            for (int i = 0 ; i < this.categoriesList.GetRange() ; i ++){
+            for (int i = 0 ; i < this.categoriesList.Count ; i ++){
 
                 if ( this.categoriesList[i] == catMod){
                 }
@@ -32,7 +32,7 @@ namespace Project {
 
         public void DeleteCategorie(Categories catDel){
 
-            for (int i = 0 ; i < (this.categoriesList<Categories>.Count()) ; i++){
+            for (int i = 0 ; i < this.categoriesList.Count ; i++){
 
                 if ( this.categoriesList[i] == catDel){
 
