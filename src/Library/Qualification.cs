@@ -4,7 +4,7 @@ namespace Project
 {///
     public class Qualification
     {
-        List<int> Calification;
+        List<int> Qualify;
     /// <summary>
     /// 
     /// </summary>
