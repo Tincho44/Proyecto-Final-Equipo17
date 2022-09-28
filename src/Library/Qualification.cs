@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 namespace Project
 {
-    public class Califications
+    public class Qualification
     {
         List<int> Calification;
     }

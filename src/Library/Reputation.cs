@@ -6,7 +6,7 @@ namespace Project
     {
         float[] reputation;
     }
-    public void GetCalifications(Calification calification)
+    public void GetCalifications(Qualification calification)
     {
 
     }

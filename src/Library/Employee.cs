@@ -6,7 +6,7 @@ namespace Project
     public class Employee : User
     {
 
-        public void CalificateEmployer(Employer employer, Calification calification)
+        public void CalificateEmployer(Employer employer, Qualification calification)
         {
             // En este metodo el employee le da una calificacion a un employer
         }
