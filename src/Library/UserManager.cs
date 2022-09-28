@@ -7,7 +7,7 @@ namespace Project
     {
         private List<User> UserList;
         private string name;
-        private string surname;
+        private string surName;
         private int id;
         private Object User;
         private Object password;
