@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Project
 {
-    class UserManager
+    class UserManager//Clase administradora de usuario
     {
         private List<User> UserList;
         private string name;
