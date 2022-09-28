@@ -3,20 +3,20 @@ using System.Collections.Generic;
 
 namespace Project{
 
-    public class Service{
+    public class Services{
 
-        public List<Service> services;
+        public List<Services> services;
         private string name;
         public int cost;
         private Administrator admin;
 
 
-        public void AddService(Service service){
+        public void AddService(Services service){
 
             this.services.Add(service);
         }
 
-        public void ModifyService(Service service,int newCost, string newName){
+        public void ModifyService(Services service,int newCost, string newName){
 
             for (int i = 0 ; i < this.services.Count() ; i++){
 
@@ -26,7 +26,7 @@ namespace Project{
             }
         }
 
-        public void DeleteService(Service service){
+        public void DeleteService(Services service){
 
             for (int i = 0 ; i < this.services.Count() ; i++){
 

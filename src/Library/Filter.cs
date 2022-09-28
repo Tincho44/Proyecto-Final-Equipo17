@@ -5,7 +5,7 @@ namespace Project{
 
     public class Filter {
 
-        public List<Califications> califications;
+        public List<Qualification> califications;
         public List<Categories> categories;
         public List<User> users;
 
