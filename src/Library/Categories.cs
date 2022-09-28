@@ -3,6 +3,10 @@ using System.Collections.Generic;
 
 namespace Project {
 
+
+/// <summary>
+/// 
+/// </summary>
     public class Categories {
 
         private List<Categories> categoriesList;

@@ -3,7 +3,12 @@ using System.Collections.Generic;
 
 namespace Project{
 
+
+/// <summary>
+/// 
+/// </summary>
     public class Filter {
+
 
         public List<Qualification> califications;
         public List<Categories> categories;
@@ -27,9 +32,5 @@ namespace Project{
         }
 
     }
-
-
-
-
-
+    
 }

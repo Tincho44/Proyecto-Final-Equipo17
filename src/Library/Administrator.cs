@@ -3,9 +3,17 @@ using System.Collections.Generic;
 
 namespace Project
 {
+
+    /// <summary>
+    /// 
+    /// </summary>
     public class Administrator : User
     {
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="category"></param>
         public void CreateCategories(Categories category) //da error por que falta crear la clase Categories
         {
             // Admin crea una categoria como dice la letra
