@@ -7,7 +7,7 @@ namespace Project{
 /// <summary>
 /// Clase encargada de gestionar los servicios
 /// </summary>
-    public class Services{
+    public class Services{//clase que muestra los servicios ofrecidos
 
         /// <summary>
         /// Lista de todos los servicios

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Project
 {
-    class Profile
+    class Profile//Perfil visual de los usuarios que heredaría atributos de la clase user
     {
         //declaramos los atributos:
         private string name ;

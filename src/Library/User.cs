@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Project
 {
-    public class User
+    public class User//superclase usuario de las que heredan administrador, empleado y empleador
     {
     
         private  string Name {get;}
