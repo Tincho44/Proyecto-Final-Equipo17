@@ -18,7 +18,7 @@ namespace Project{
         /// Costo del servicio
         /// </summary>
         public int cost;
-        private Administrator admin;
+        private Administrator author;
 
 /// <summary>
 /// Agrega un servicio a la lista Servicios
