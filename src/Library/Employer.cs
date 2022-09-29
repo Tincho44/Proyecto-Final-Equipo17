@@ -8,7 +8,10 @@ namespace Project
     /// </summary>
     public class Employer : User
     {
-
+         public Employer(string name, string surname, int identity, string email, string location) : base(name,surname,identity,email,location)
+        {
+    
+        }
         public void CalificateEmployee(Employee employee)
         {
           // Califica a un Employee

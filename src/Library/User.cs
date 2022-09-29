@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace Project
 {
-    public abstract class User//superclase usuario de las que heredan administrador, empleado y empleador
+    public class User//superclase usuario de las que heredan administrador, empleado y empleador
     {
     
-        private  string name; 
-        private  string surname;
+        protected string name; 
+        private string surname;
         private  int identity;
         private  string email;
         private  string location;

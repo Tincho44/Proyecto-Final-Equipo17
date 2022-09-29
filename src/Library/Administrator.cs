@@ -10,10 +10,11 @@ namespace Project
     public class Administrator : User
     {
 
-        /// <summary>
-        /// Admin crea una categoria como dice la letra
-        /// </summary>
-        /// <param name="category"></param>
+        
+        public Administrator(string name, string surname, int identity, string email, string location) : base(name,surname,identity,email,location)
+        {
+    
+        }
         public void CreateCategories(Categories category) //da error por que falta crear la clase Categories
         {
             
