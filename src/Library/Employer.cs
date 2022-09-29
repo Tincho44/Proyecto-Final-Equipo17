@@ -3,7 +3,9 @@ using System.Collections.Generic;
 
 namespace Project
 {
-
+    /// <summary>
+    /// 
+    /// </summary>
     public class Employer : User
     {
 
