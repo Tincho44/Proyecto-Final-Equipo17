@@ -21,9 +21,7 @@ namespace Project
         {
             this.name = name;
             this.surname = surname;
-            this.qualification = qualification;
             this.location = location;
-            this.reputation = reputation;
         }
 
     public string name
