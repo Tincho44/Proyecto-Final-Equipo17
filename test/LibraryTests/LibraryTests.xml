@@ -4,28 +4,5 @@
         <name>LibraryTests</name>
     </assembly>
     <members>
-        <member name="T:Tests.TrainTests">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="F:Tests.TrainTests.train">
-            <summary>
-          
-            </summary>
-        </member>
-        <member name="M:Tests.TrainTests.Setup">
-            <summary>
-            </summary>
-        </member>
-        <member name="M:Tests.TrainTests.StartTrainTest">
-            <summary>
-           
-            </summary>
-        </member>
-        <member name="M:Tests.TrainTests.StopTrainTest">
-            <summary>
-            </summary>
-        </member>
     </members>
 </doc>

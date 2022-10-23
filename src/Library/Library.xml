@@ -4,32 +4,159 @@
         <name>Library</name>
     </assembly>
     <members>
-        <member name="T:ClassLibrary.Train">
+        <member name="T:Project.Administrator">
             <summary>
-            Esta clase representa un tren muy básico.
+            Clase encagada del usuario tipo Admin (Hereda de User)
             </summary>
         </member>
-        <member name="P:ClassLibrary.Train.IsEngineStarted">
+        <member name="M:Project.Administrator.RemoveService(Project.Services)">
             <summary>
-            Obtiene un valor que indica si las maquinas del tren han sido encendidas o no.
+            // Admin remueve un servicio
             </summary>
-            <value><c>true</c> si las máquinas fueron encendidas, <c>false</c> en caso contrario.</value>
+            <param name="service"></param>
         </member>
-        <member name="M:ClassLibrary.Train.StartEngines">
+        <member name="M:Project.Administrator.TalkToEmployee(Project.Employee)">
             <summary>
-            Enciende las máquinas del tren.
+            El admin habla con el oferente para que no proponga servicios que no estan disponibles
             </summary>
-            <returns>
-            <c>true</c> si las máquinas pueden ser encendidas, <c>false</c> en caso contrario.
-            </returns>
+            <param name="employee"></param>
         </member>
-        <member name="M:ClassLibrary.Train.StopEngines">
+        <member name="T:Project.Categories">
             <summary>
-            Detiene las máquinas del tren.
+            
             </summary>
-            <returns>
-            <c>true</c> si las máquinas pueden ser detenidas, <c>false</c> en caso contrario.
-            </returns>
+        </member>
+        <member name="M:Project.Categories.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Project.Categories.AddCategories(Project.Categories)">
+            <summary>
+            Agrega una categoria dada a la lista de categorias
+            </summary>
+            <param name="cat"></param>
+        </member>
+        <member name="M:Project.Categories.ModifyCategorie(Project.Categories)">
+            <summary>
+            Modifica una categoria dada de la lista de categorias
+            </summary>
+            <param name="catMod"></param>
+        </member>
+        <member name="M:Project.Categories.DeleteCategorie(Project.Categories)">
+            <summary>
+            Elimina una categoria dada de la lista de categorias
+            </summary>
+            <param name="catDel"></param>
+        </member>
+        <member name="T:Project.Employer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Project.Filter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Project.Filter.califications">
+            <summary>
+            Lista con las calificaciones
+            </summary>
+        </member>
+        <member name="F:Project.Filter.categories">
+            <summary>
+            Lista con las categorias
+            </summary>
+        </member>
+        <member name="F:Project.Filter.users">
+            <summary>
+            Lista con los usuarios
+            </summary>
+        </member>
+        <member name="M:Project.Filter.DeleteFilter(Project.Filter)">
+            <summary>
+            Se encarga de eliminar un filtro dado.
+            </summary>
+        </member>
+        <member name="M:Project.Filter.Search">
+            <summary>
+            Se encarga de realizar una busqueda por parametros dados
+            </summary>
+        </member>
+        <member name="M:Project.Filter.SortByLocation">
+            <summary>
+            Se encarga de ordenar por ubicacion mas cercana
+            </summary>
+        </member>
+        <member name="M:Project.Filter.SortAlphabetically">
+            <summary>
+            Se encarga de ordenar por orden alfabetico 
+            </summary>
+        </member>
+        <member name="T:Project.Qualification">
+            
+        </member>
+        <member name="M:Project.Qualification.QualifyEmployer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Project.Qualification.QualifyEmployee">
+            
+        </member>
+        <member name="T:Project.Reputation">
+            
+        </member>
+        <member name="M:Project.Reputation.GetQualifications(Project.Qualification)">
+            
+        </member>
+        <member name="M:Project.Reputation.AverageQualifications">
+            
+        </member>
+        <member name="M:Project.Reputation.CreateReputation">
+            
+        </member>
+        <member name="T:Project.Services">
+            <summary>
+            Clase encargada de gestionar los servicios
+            </summary>
+        </member>
+        <member name="F:Project.Services.services">
+            <summary>
+            Lista de todos los servicios
+            </summary>
+        </member>
+        <member name="F:Project.Services.cost">
+            <summary>
+            Costo del servicio
+            </summary>
+        </member>
+        <member name="M:Project.Services.AddService(Project.Services)">
+            <summary>
+            Agrega un servicio a la lista Servicios
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:Project.Services.ModifyService(Project.Services,System.Int32,System.String)">
+            <summary>
+            Modifica un servicio de la lista Servicios
+            </summary>
+            <param name="service"></param>
+            <param name="newCost"></param>
+            <param name="newName"></param>
+        </member>
+        <member name="M:Project.Services.DeleteService(Project.Services)">
+            <summary>
+            Borra un servicio de la lista de servicios
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:Project.Services.PriceService(System.Int32)">
+            <summary>
+            Cambia el costo del costo de este objeto
+            </summary>
+            <param name="price"></param>
         </member>
     </members>
 </doc>
