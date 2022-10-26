@@ -29,5 +29,30 @@
             Prueba que el tren se detenga.
             </summary>
         </member>
+        <member name="T:Tests.UserTest">
+            <summary>
+            Prueba de la clase <see cref="T:ClassLibrary.Train"/>.
+            </summary>
+        </member>
+        <member name="F:Tests.UserTest.train">
+            <summary>
+            El tren para probar.
+            </summary>
+        </member>
+        <member name="M:Tests.UserTest.Setup">
+            <summary>
+            creo un user para probar.
+            </summary>
+        </member>
+        <member name="M:Tests.UserTest.CreateUser">
+            <summary>
+            Prueba que el tren arranque.
+            </summary>
+        </member>
+        <member name="M:Tests.UserTest.StopTrainTest">
+            <summary>
+            Prueba que el tren se detenga.
+            </summary>
+        </member>
     </members>
 </doc>
