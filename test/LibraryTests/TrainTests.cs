@@ -4,7 +4,6 @@
 // </copyright>
 //--------------------------------------------------------------------------------
 
-using Project;
 using NUnit.Framework;
 
 namespace Tests
