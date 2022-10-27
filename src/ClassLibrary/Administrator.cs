@@ -11,31 +11,32 @@ namespace Project
     {
 
         
-        public Administrator(string name, string surname, int identity, string email, string location) : base(name,surname,identity,email,location)
+        public Administrator(string name, string surname, int identification, string email, string location, int cellphone) : base(name,surname,identification,email,location, cellphone)
         {
     
         }
-        public void CreateCategories(Categories category) //da error por que falta crear la clase Categories
+        public void AddCategories(Categories category) 
         {
-            
+            //Este método debe añadir nuevas categorías 
         }
 
         /// <summary>
         /// // Admin remueve un servicio
         /// </summary>
         /// <param name="service"></param>
-        public void RemoveService(Services service) // Lo mismo que categories, falta la clase Services
+        public void RemoveCategories(Categories category) 
         {
-            
+            //Debe eliminar categorías existentes
         }
 
 /// <summary>
 /// El admin habla con el oferente para que no proponga servicios que no estan disponibles
 /// </summary>
-/// <param name="employee"></param>
-        public void TalkToEmployee(Employee employee)
+/// 
+        public void NotifyOfferer(Services service)// Puede ser que tenga como parámetro employee o ambos
         {
-    
+            //Este método debe eliminar un servicio y comunicarse con el empleador 
+            //para transmitirle porqué se sugiere hacerle cambios al servicio
         }
     }
 }
