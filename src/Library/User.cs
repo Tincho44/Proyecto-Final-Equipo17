@@ -6,11 +6,11 @@ namespace Project
     public class User//superclase usuario de las que heredan administrador, empleado y empleador
     {
     
-        protected string name; 
-        private string surname;
-        private  int identity;
-        private  string email;
-        private  string location;
+        public string name; 
+        public string surname;
+        public  int identity;
+        public  string email;
+        public  string location;
 
         // private List<string> Usuarios {get; set;} 
         // por el momento este atributo lo dejamos simplemente comentado, pero a futuro lo vamos a usar, no se si en esta clase u otra. 

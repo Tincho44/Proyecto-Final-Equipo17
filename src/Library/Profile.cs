@@ -3,23 +3,24 @@ using System.Collections.Generic;
 
 namespace Project
 {
-    class Profile//Perfil visual de los usuarios que heredaría atributos de la clase user
+    class Profile : User //Perfil visual de los usuarios que heredaría atributos de la clase user
     {
-        //declaramos los atributos:
+       /* //declaramos los atributos:
         private string name ;
         public string surname { get;set; } 
-        public int qualification { get;set; }
+        
         public string location { get;set; }
+        */
         public int reputation { get;set; }
-
         //metodo constructor:
-        public  Profile (string name,string surname, int qualification, int reputation, string location)
+        public Profile (string name,string surname,int identity, string email, string location, int reputation)
         {
             this.name = name;
             this.surname = surname;
-            this.qualification = qualification;
+            this.identity = identity;
+            this.email = email;
             this.location = location;
-            this.reputation = reputation;
+            this.reputation = reputation;           
         }
         //en caso de que queramos hacer privado algún atributo privado por ejemplo name podria hacer esto: 
         public string Name
