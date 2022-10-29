@@ -1,9 +1,3 @@
-//--------------------------------------------------------------------------------
-// <copyright file="TestExample.cs" company="Universidad Católica del Uruguay">
-//     Copyright (c) Programación II. Derechos reservados.
-// </copyright>
-//--------------------------------------------------------------------------------
-
 using ClassLibrary;
 using NUnit.Framework;
 using Project;
@@ -18,8 +12,7 @@ namespace Tests
     {
         /// <summary>
         /// El tren para probar.
-        /// </summary>
-        private Train train;
+        /// </summary
 
         /// <summary>
         /// creo un user para probar.
@@ -35,7 +28,7 @@ namespace Tests
         [Test]
         public void CreateUser()
         {
-           
+            Employee employee = 
             Assert.Pass();
         }
 

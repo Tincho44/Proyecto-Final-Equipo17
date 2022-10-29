@@ -28,4 +28,7 @@
     <ProjectReference Include="..\..\src\Library\Library.csproj" />
   </ItemGroup>
 
+    <ItemGroup>
+    <ProjectReference Include="..\..\src\ClassLibrary\ClassLibrary.csproj" />
+  </ItemGroup>
 </Project>
